@@ -32,7 +32,7 @@ function App() {
       <Accordion accordionData={data} />
       {/* Approach2 */}
       {/* Another approach for the accordion component is below */}
-      <Accordion2 accordionData={data} />
+      {/* <Accordion2 accordionData={data} /> */}
     </div>
   );
 }
