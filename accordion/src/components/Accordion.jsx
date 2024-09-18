@@ -1,3 +1,4 @@
+//Approach1
 import { useState } from "react";
 import "../App.css";
 

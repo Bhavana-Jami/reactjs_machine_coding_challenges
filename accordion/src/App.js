@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react'
 import Accordion from './components/Accordion';
+import Accordion2 from './components/Accordion2';
 
 function App() {
   const data = [
@@ -27,7 +28,11 @@ function App() {
 
   return (
     <div className="App">
+      {/* Approach1 */}
       <Accordion accordionData={data} />
+      {/* Approach2 */}
+      {/* Another approach for the accordion component is below */}
+      <Accordion2 accordionData={data} />
     </div>
   );
 }
