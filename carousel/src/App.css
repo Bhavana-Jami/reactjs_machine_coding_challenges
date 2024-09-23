@@ -13,8 +13,9 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  background-color: aliceblue;
+  background-color:darkseagreen;
   overflow: hidden;
+  transition: all 100ms ease-in-out;
 }
 
 .arrow {
@@ -49,4 +50,13 @@
 .carousel_contents p {
   text-align: center;
   padding: 0 2rem;
+}
+
+.carousel_wrapper:nth-child(1) {
+  background-color: cadetblue;
+
+}
+
+.carousel_wrapper:nth-child(3) {
+  background-color: cornflowerblue;
 }
