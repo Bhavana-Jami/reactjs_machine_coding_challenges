@@ -1,0 +1,52 @@
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel_wrapper {
+  width: 40rem;
+  display: flex;
+  height: 60vh;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: aliceblue;
+  overflow: hidden;
+}
+
+.arrow {
+  cursor: pointer;
+  display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  margin: 0 !important;
+  opacity: 0.5;
+  transition: background-color 100ms ease-in-out;
+}
+
+.arrow:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+.arrow b {
+  font-size: 2rem;
+}
+
+.carousel_contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: all 100ms ease-in-out;
+}
+
+.carousel_contents p {
+  text-align: center;
+  padding: 0 2rem;
+}
